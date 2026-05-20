@@ -13,7 +13,7 @@ I am actively working on improving my coding skills and consistency. This reposi
 
 ## Language
 
-All solutions are written in **JavaScript (JS)**.
+Previously, solutions were written in **Python**. Since **JavaScript (JS)** is now my primary language, current solutions are written in **JavaScript**.
 
 ## Automation
 
