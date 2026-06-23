@@ -2,17 +2,19 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
-    let cleaned = s.toLowerCase().replace(/[^a-z0-9]/g, "");
+var isPalindrome = function (s) {
+    s = s.toLowerCase().replace(/[^a-z0-9]/g, '');
     let left = 0;
-    let right = cleaned.length-1;
-    while(left < right){
-        if(cleaned[left] !== cleaned[right]){
+    let right = s.length - 1;
+
+    while (left < right) {
+        if (s[left] != s[right]) {
             return false;
         }
-        left++;
-        right--;
+        else {
+            left++;
+            right--;
+        }
     }
     return true;
-
 };
